@@ -1,0 +1,3 @@
+user1=123:{ "SubDomain":"test", "ProxyType":"http.?", "Locations":"[/path]", "RemotePort":"123", "UseEncryption":"true" }
+user2=abc
+

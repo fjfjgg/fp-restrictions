@@ -1,3 +1,5 @@
+[![Go](https://github.com/fjfjgg/fp-restrictions/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/fjfjgg/fp-restrictions/actions/workflows/go.yml)
+
 # fp-restrictions
 
 frp server plugin to support client restrictions for [frp](https://github.com/fatedier/frp).

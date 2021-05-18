@@ -41,7 +41,7 @@ frp version >= v0.31.0
     bind_port = 7000
 
     [plugin.restrictions]
-    addr = 127.0.0.1:7700
+    addr = 127.0.0.1:7200
     path = /handler
     ops = Login, NewProxy
     ```

@@ -121,7 +121,7 @@ func (c *OpController) HandleNewProxy(ctx *gin.Context) (interface{}, error) {
 			    if match == false {
 		    	    	res.Reject = true
 		    	    	res.RejectReason = "restriction applied"
-		    	    	log.Println("rejected")
+		    	    	log.Println("Rejected expected:",v,"requested:",sv)
 			    }
 			case reflect.Array:
 			    log.Println(v, "is an array (unsupported type) with element type",
@@ -134,7 +134,7 @@ func (c *OpController) HandleNewProxy(ctx *gin.Context) (interface{}, error) {
 		    		
 		    }
 		    if res.Reject == true {
-		    	//break;
+		    	break;
 		    }
 		}		
 		res.Unchange = true
